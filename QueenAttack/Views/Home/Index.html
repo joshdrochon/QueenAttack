@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Queen Attack</title>
+  </head>
+  <body>
+    <form action="/QueenAttack/QueenAttackResult" method="post">
+      <h3>Enter coordinates to find out if the queen can kill her prey!</h3>
+
+      <label>Queen:</label>
+      X:<input type="number" min="0" max="8" required="true" name="queen-x">
+      Y:<input type="number" min="0" max="8" required="true" name="queen-y">
+
+      <label>Target:</label>
+      X:<input type="number" min="0" max="8" required="true" name="target-x">
+      Y:<input type="number" min="0" max="8" required="true" name="target-y">
+
+      <button type="submit" name="button">Submit!</button>
+
+    </form>
+  </body>
+</html>
