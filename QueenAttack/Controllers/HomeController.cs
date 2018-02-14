@@ -26,7 +26,7 @@ namespace QueenAttackProject.Controllers
       bool myQueenAttack = newQueenAttack.CanAttack
       (inputX1, inputY1, inputX2, inputY2);
 
-      if (myQueenAttack == false)
+      if(myQueenAttack == false)
       {
         return View("../QueenAttack/ResultFalse");
       }
